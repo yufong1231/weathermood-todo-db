@@ -8,7 +8,7 @@
     "watch": "nodemon src/server.js",
     "schema": "node src/model/schema.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fix": "find ./node_modules/* -mtime +10950 -exec touch {} \\;"
+    "install": "find ./node_modules/* -mtime +10950 -exec touch {} \\;"
   },
   "keywords": [],
   "author": "",
