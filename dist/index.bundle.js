@@ -31619,7 +31619,7 @@ module.exports = function spread(callback) {
 // const postBaseUrl = 'http://weathermood-staging.us-west-2.elasticbeanstalk.com/api';
 
 // Production server URL
-var postBaseUrl = 'http://weathermood-4.us-west-2.elasticbeanstalk.com/api';
+var postBaseUrl = 'http://team4-todoDB.us-west-2.elasticbeanstalk.com/api';
 
 function listPosts() {
     var searchText = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
