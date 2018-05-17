@@ -31697,7 +31697,7 @@ var todoKey = 'todos';
 // const postBaseUrl = 'http://weathermood-staging.us-west-2.elasticbeanstalk.com/api';
 
 // Production server URL
-var postBaseUrl = 'http://weathermood-4.us-west-2.elasticbeanstalk.com/api';
+var postBaseUrl = 'http://team4-todoDB.us-west-2.elasticbeanstalk.com/api';
 
 function listTodos() {
     var unaccomplishedOnly = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
